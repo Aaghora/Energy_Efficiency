@@ -35,3 +35,16 @@ git log  #To see the commits and also the main branch pointing to which head
 ```git remote add origin <repository link> #to change git origin to your repository
 ```
 git reset -soft <> #to change the main 
+```
+git config --global user.email "emailid"
+git config --global user.name "user_name"
+```
+git add . #add every file newly created or updated
+```
+```
+git status # checks the status of files
+```
+```git commit -m "message" #to finalise the changes sent
+```
+```git push origin main -f #forcefully pushing changes to git hub because history is not same for commit
+```
